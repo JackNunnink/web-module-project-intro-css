@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    max-width: 100%;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    height: 80px;
+    width: 175px;
+    padding: 10px;
+    text-decoration: none;
+    text-size-adjust: 5%;
+    letter-spacing: 3px;
+    margin: 0 4%;
+}
+
+nav .plan {
+    display: inline-block;
+    background-color: #FF764E;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav .learn {
+    display: inline-block;
+    background-color: #5ED3EB;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav .get {
+    display: inline-block;
+    background-color: #FFCD69;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 5%;
+}
+
+header img {
+    border-radius: 999999px;
+}
+
+.guide {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    margin: 2%;
+}
+
+.guide h1 {
+    font-size: 2.6rem;
+}
+
+.guide h2 {
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+.description {
+    background-color: #DDB9A3;
+    padding: 2%;
+    margin: 20px;
+}
+
+.description p {
+    color: white;
+    text-align: center;
+}
+
+.fire {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.fire img {
+    margin-bottom: 15px;
+}
+
+.fire p {
+    text-align: center;
+}
+
+.recommend {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.recommend img {
+    margin-bottom: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.recommend p {
+    text-align: center;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+
